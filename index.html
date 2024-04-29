@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASA DE CAMBIO</title>
+    <script src="formulario.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Exchange</h1>
+    <form class="formulario">
+        <p>Cambiar pesos a: </p>
+        <input type="radio" name="cambio" id="uno">Dólar
+        <input type="radio" name="cambio" id="dos">Euro
+        <input type="radio" name="cambio" id="tres">Bitcoin
+        <p>Ingresá un monto en pesos</p>
+        <input type="number" id="valor" min="1" max="1000000">
+        <input type="button" id="Cotizador" value="Cotizar" onclick="convertir()">
+    </form>
+
+<h2>Cotizacion de hoy:
+    Dolar $1000
+    Euro $1100
+    Bitcoin 64.000USD
+</h2>
+
+</body> 
+
+</html>
